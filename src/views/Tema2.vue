@@ -9,7 +9,7 @@
     .row.bg-color-1
       .col-12
         .p-5
-          .row.justify-content-center.align-items-stretch.mb-5(data-aos="fade-left")      
+          .row.justify-content-center.align-items-stretch(data-aos="fade-left")      
             .col-lg-8.mb-0.d-flex.align-items-center.bg-color-5.p-4
               p.mb-0 La normatividad y seguridad en la avicultura de engorde integran el cumplimiento de disposiciones sanitarias, laborales y ambientales que garantizan la producción eficiente, la protección del trabajador y la sanidad del plantel avícola. Estas medidas están reguladas principalmente por el Instituto Colombiano Agropecuario (ICA) y otras entidades del sector agropecuario.
             .col-lg-4.d-flex.align-items-center.justify-content-center
@@ -141,7 +141,7 @@
     //- Título con imagen    
     //- Inicio Tabla
     .row.justify-content-center
-      .col-md-10
+      .col-lg-10.col-md-auto
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Tabla 2.
           span  Normatividad
@@ -228,22 +228,22 @@
                 ul.lista-ul.mb-0
                   li.d-flex
                     i.fas.fa-check-circle.me-3(style="color:#AD9721")
-                    p.mb-0 Registro del predio avícola (RSPA) 
+                    p.mb-0 Registro del predio avícola (RSPA).
                   li.d-flex
                     i.fas.fa-check-circle.me-3(style="color:#AD9721")
-                    p.mb-0 Cumplimiento de infraestructura  
+                    p.mb-0 Cumplimiento de infraestructura.
                   li.d-flex
                     i.fas.fa-check-circle.me-3(style="color:#AD9721")
-                    p.mb-0 Implementación de POES 
+                    p.mb-0 Implementación de POES.
                   li.d-flex
                     i.fas.fa-check-circle.me-3(style="color:#AD9721")
-                    p.mb-0 Vigilancia epidemiológica
+                    p.mb-0 Vigilancia epidemiológica.
                   li.d-flex
                     i.fas.fa-check-circle.me-3(style="color:#AD9721")
-                    p.mb-0 Certificación GAB 
+                    p.mb-0 Certificación GAB.
                   li.d-flex
                     i.fas.fa-check-circle.me-3(style="color:#AD9721")
-                    p.mb-0 Planes vacunales obligatorios
+                    p.mb-0 Planes vacunales obligatorios.
           //- Fin Tarjetas
     Separador
     //- Inicio Tema2.4
@@ -255,10 +255,10 @@
       .col-12
         .p-5
           //- Carrusel
-          .bg-full-width.mt-5
+          .bg-full-width
             .px-4.px-md-5.pb-md-3             
               .carousel-bg
-                .row.justify-content-center.mb-5.align-items-center
+                .row.justify-content-center.align-items-center
                   .col-lg-12.mb-3.mb-lg-0.order-lg-2
                     SlyderF(columnas="col-xl-4 col-lg-4")
                       .bg-white.tarjeta.p-4.h-100.shadow-app.bordes
@@ -353,7 +353,7 @@
                             i.fas.fa-check-circle.me-3(style="color:#AD9721")
                             span Reportes sanitarios.
                 //- Fin Carrusel
-    Separador
+          Separador
     //- Inicio Tema2.5
     .row.mt-5
         #t_2_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -415,70 +415,70 @@
             img(src='@/assets/curso/tema2/tarjeta04_1.png', alt='Registro legal')
           //- Agregamos flex-grow-1 para que el fondo gris llene el espacio sobrante
           .p-3.text-center.flex-grow-1(style="background-color: #e8e6d9; border-radius: 0 0 10px 10px;")
-            p.mb-0.fw-bold Registro legal (RSPA, GAB)
+            p.mb-0.fw-bold Registro legal (RSPA, GAB).
       //- Tarjeta 2
       .col-6.col-md-4.col-lg-3.mb-4(data-aos="zoom-in")
         .tarjeta.h-100.shadow-sm.d-flex.flex-column
           figure.mb-0
             img(src='@/assets/curso/tema2/tarjeta04_2.png', alt='Infraestructura')
           .p-3.text-center.flex-grow-1(style="background-color: #e8e6d9; border-radius: 0 0 10px 10px;")
-            p.mb-0.fw-bold Infraestructura
+            p.mb-0.fw-bold Infraestructura.
       //- Tarjeta 3
       .col-6.col-md-4.col-lg-3.mb-4(data-aos="zoom-in")
         .tarjeta.h-100.shadow-sm.d-flex.flex-column
           figure.mb-0
             img(src='@/assets/curso/tema2/tarjeta04_3.png', alt='Control de ingreso')
           .p-3.text-center.flex-grow-1(style="background-color: #e8e6d9; border-radius: 0 0 10px 10px;")
-            p.mb-0.fw-bold Control de ingreso
+            p.mb-0.fw-bold Control de ingreso.
       //- Tarjeta 4
       .col-6.col-md-4.col-lg-3.mb-4(data-aos="zoom-in")
         .tarjeta.h-100.shadow-sm.d-flex.flex-column
           figure.mb-0
             img(src='@/assets/curso/tema2/tarjeta04_4.png', alt='Vacunación')
           .p-3.text-center.flex-grow-1(style="background-color: #e8e6d9; border-radius: 0 0 10px 10px;")
-            p.mb-0.fw-bold Vacunación
+            p.mb-0.fw-bold Vacunación.
       //- Tarjeta 5
       .col-6.col-md-4.col-lg-3.mb-4(data-aos="zoom-in")
         .tarjeta.h-100.shadow-sm.d-flex.flex-column
           figure.mb-0
             img(src='@/assets/curso/tema2/tarjeta04_5.png', alt='Manejo de agua')
           .p-3.text-center.flex-grow-1(style="background-color: #e8e6d9; border-radius: 0 0 10px 10px;")
-            p.mb-0.fw-bold Manejo de agua y alimento
+            p.mb-0.fw-bold Manejo de agua y alimento.
       //- Tarjeta 6
       .col-6.col-md-4.col-lg-3.mb-4(data-aos="zoom-in")
         .tarjeta.h-100.shadow-sm.d-flex.flex-column
           figure.mb-0
             img(src='@/assets/curso/tema2/tarjeta04_6.png', alt='Limpieza')
           .p-3.text-center.flex-grow-1(style="background-color: #e8e6d9; border-radius: 0 0 10px 10px;")
-            p.mb-0.fw-bold Limpieza y desinfección
+            p.mb-0.fw-bold Limpieza y desinfección.
       //- Tarjeta 7
       .col-6.col-md-4.col-lg-3.mb-4(data-aos="zoom-in")
         .tarjeta.h-100.shadow-sm.d-flex.flex-column
           figure.mb-0
             img(src='@/assets/curso/tema2/tarjeta04_7.png', alt='Residuos')
           .p-3.text-center.flex-grow-1(style="background-color: #e8e6d9; border-radius: 0 0 10px 10px;")
-            p.mb-0.fw-bold Manejo de residuos
+            p.mb-0.fw-bold Manejo de residuos.
       //- Tarjeta 8
       .col-6.col-md-4.col-lg-3.mb-4(data-aos="zoom-in")
         .tarjeta.h-100.shadow-sm.d-flex.flex-column
           figure.mb-0
             img(src='@/assets/curso/tema2/tarjeta04_8.png', alt='Monitoreo')
           .p-3.text-center.flex-grow-1(style="background-color: #e8e6d9; border-radius: 0 0 10px 10px;")
-            p.mb-0.fw-bold Monitoreo sanitario
+            p.mb-0.fw-bold Monitoreo sanitario.
       //- Tarjeta 9
       .col-6.col-md-4.col-lg-3.mb-4(data-aos="zoom-in")
         .tarjeta.h-100.shadow-sm.d-flex.flex-column
           figure.mb-0
             img(src='@/assets/curso/tema2/tarjeta04_9.png', alt='Reporte ICA')
           .p-3.text-center.flex-grow-1(style="background-color: #e8e6d9; border-radius: 0 0 10px 10px;")
-            p.mb-0.fw-bold Reporte al ICA
+            p.mb-0.fw-bold Reporte al ICA.
       //- Tarjeta 10
       .col-6.col-md-4.col-lg-3.mb-4(data-aos="zoom-in")
         .tarjeta.h-100.shadow-sm.d-flex.flex-column
           figure.mb-0
             img(src='@/assets/curso/tema2/tarjeta04_10.png', alt='Auditorías')
           .p-3.text-center.flex-grow-1(style="background-color: #e8e6d9; border-radius: 0 0 10px 10px;")
-            p.mb-0.fw-bold Auditorías
+            p.mb-0.fw-bold Auditorías.
     Separador
     //- Inicio Tema2.7
     .row.mt-5

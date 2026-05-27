@@ -268,9 +268,9 @@
     p(data-aos="fade-left") La calefacción proporciona calor artificial necesario para mantener la temperatura corporal de los pollitos, ya que en sus primeros días no regulan bien su temperatura. Los aspectos fundamentales se presentan seguidamente:
     //- Inicio Infografia
     .row.justify-content-center
-      .col-lg-10
+      .col-lg-8
         PasosA.color-acento-contenido(tipo="n")
-          .row
+          .row.align-items-center
             .col-lg
               h3 Criadoras a gas
               ul.lista-ul
@@ -283,12 +283,12 @@
             .col-auto
               figure(data-aos="zoom-in")
                 img(src='@/assets/curso/tema4/infografia01_1.png').img125
-          .row
+          .row.align-items-center
             .col-auto
               figure(data-aos="zoom-in")
                 img(src='@/assets/curso/tema4/infografia01_2.png').img125
             .col-lg.text-start
-              h3 Lámparas infrarrojas
+              h3.mt-3 Lámparas infrarrojas
               ul.lista-ul
                 li.d-flex
                   i.fas.fa-check-circle(style="color: #ad9721;")
@@ -296,7 +296,7 @@
                 li.d-flex
                   i.fas.fa-check-circle(style="color: #ad9721;")
                   span.ms-2 Generan calor localizado. 
-          .row
+          .row.align-items-center
             .col-lg
               h3 Sistemas de aire caliente
               ul.lista-ul
@@ -309,12 +309,12 @@
             .col-auto
               figure(data-aos="zoom-in")
                 img(src='@/assets/curso/tema4/infografia01_3.png').img125
-          .row
+          .row.align-items-center
             .col-auto
               figure(data-aos="zoom-in")
                 img(src='@/assets/curso/tema4/infografia01_4.png').img125
             .col-lg.text-start
-              h3 Manejo operativo
+              h3.mt-3 Manejo operativo
               ul.lista-ul
                 li.d-flex
                   i.fas.fa-check-circle(style="color: #ad9721;")
@@ -325,7 +325,7 @@
                 li.d-flex
                   i.fas.fa-check-circle(style="color: #ad9721;")
                   span.ms-2 Distribuir uniformemente las criadoras. 
-          .row
+          .row.align-items-center
             .col-lg
               h3 Indicadores de comportamiento:
               ul.lista-ul
@@ -352,10 +352,10 @@
       .col-12
         .p-5
           //- Carrusel
-          .bg-full-width.mt-5
+          .bg-full-width
             .px-4.px-md-5.pb-md-3             
               .carousel-bg
-                .row.justify-content-center.mb-5.align-items-center
+                .row.justify-content-center.align-items-center
                   .col-lg-12.mb-3.mb-lg-0.order-lg-2
                     SlyderF(columnas="col-xl-4 col-lg-4")
                       .bg-white.tarjeta.h-100.shadow-app.bordes.overflow-hidden
@@ -430,10 +430,10 @@
       .col-12
         .p-5
           //- Carrusel
-          .bg-full-width.mt-5
+          .bg-full-width
             .px-4.px-md-5.pb-md-3             
               .carousel-bg
-                .row.justify-content-center.mb-5.align-items-center
+                .row.justify-content-center.align-items-center
                   .col-lg-12.mb-3.mb-lg-0.order-lg-2
                     SlyderF(columnas="col-xl-4 col-lg-4")
                       .bg-white.tarjeta.h-100.shadow-app.bordes.overflow-hidden

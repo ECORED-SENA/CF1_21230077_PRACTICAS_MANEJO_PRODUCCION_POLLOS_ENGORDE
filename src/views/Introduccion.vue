@@ -11,7 +11,7 @@
       .col-12
         .p-5
           p(data-aos="fade-left") La producción avícola destinada al engorde de pollos para carne requiere la aplicación de conocimientos técnicos, sanitarios y zootécnicos que garanticen el bienestar de las aves, la eficiencia productiva y el cumplimiento de las normas de bioseguridad y sanidad animal. En este contexto, el manejo adecuado de los pollos de engorde implica comprender aspectos fundamentales como la fisiología aviar, el comportamiento y bienestar animal, las etapas de crecimiento, así como las características de las diferentes líneas genéticas utilizadas en la producción cárnica.
-          .bloque-texto-g.bloque-texto-g.bg-color-3.p-3.p-sm-4.p-md-5.mb-3(data-aos="fade-right")
+          .bloque-texto-g.bloque-texto-g.bg-color-3.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-right")
             .bloque-texto-g__img(
               :style="{'background-image': `url(${require('@/assets/curso/intro/img1.png')})`}"
             )
@@ -24,10 +24,10 @@
               figure
                 img(src="@/assets/curso/intro/img2.png", data-aos="zoom-in", style="width: 80px").mx-auto
           .row.justify-content-center.align-items-stretch.g-0.mb-5(data-aos="fade-left")
-            .col-lg-2.d-flex.align-items-center.justify-content-center
-              figure
-                img(src="@/assets/curso/intro/img3.png", style="width: 100%").mx-auto
-            .col-lg-10.mb-0.d-flex.align-items-center.bg-color-5.p-4
+            .col-12.col-md-3.col-lg-2.d-flex.align-items-center.justify-content-center.mb-4.mb-md-0
+              figure.mb-0.w-100.text-center
+                img(src="@/assets/curso/intro/img3.png", alt="", style="width: 500px; width: 100%; height: auto; object-fit: contain;").mx-auto
+            .col-12.col-md-9.col-lg-10.d-flex.align-items-center.bg-color-5.p-4
               p.mb-0 Finalmente, la eficiencia en la producción de pollo de engorde depende también de la correcta ejecución de programas de alimentación, suministro de agua, ventilación, temperatura e iluminación, de acuerdo con parámetros técnicos establecidos y la normatividad vigente. Estos elementos, junto con el cumplimiento de las normas de bioseguridad, asepsia y seguridad y salud en el trabajo, contribuyen al desarrollo de sistemas de producción avícola eficientes, sostenibles y orientados a garantizar la calidad e inocuidad de la carne producida.
             
 

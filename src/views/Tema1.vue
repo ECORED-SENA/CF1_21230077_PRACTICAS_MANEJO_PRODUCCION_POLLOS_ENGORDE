@@ -151,10 +151,10 @@
       .col-12
         .p-5
           //- Carrusel
-          .bg-full-width.mt-5
+          .bg-full-width
             .px-4.px-md-5.pb-md-3             
               .carousel-bg
-                .row.justify-content-center.mb-5.align-items-center
+                .row.justify-content-center.align-items-center
                   .col-lg-9.mb-3.mb-lg-0.order-lg-2
                     SlyderF(columnas="col-xl-6 col-lg-6")
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
@@ -191,9 +191,9 @@
                       figure
                         img(src='@/assets/curso/tema1/img1.png', style="max-width: 250px", data-aos="zoom-in").m-auto
           //- Fin Carrusel
-    Separador
+          Separador
     //- Inicio Tema1.2
-    .row.mt-5
+    .row
         #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
           h2 1.2 Procesos productivos en pollo de engorde
     p(data-aos="fade-left") El proceso productivo del pollo de engorde en Colombia es un sistema técnico controlado que inicia con el alistamiento del galpón y finaliza con el envío a planta de beneficio, garantizando sanidad, bienestar animal y eficiencia productiva. Sus etapas son:
@@ -394,7 +394,7 @@
       .col-lg-10.bg-color-9    
         //- Inicio Tabla
         .row.justify-content-center.p-4
-          .col-md-10
+          .col-md-auto
             h4 Fase productiva
             .titulo-sexto.color-acento-contenido.mb-3              
               h5 Tabla 1.
@@ -483,76 +483,73 @@
       .col-12
         .p-5
           //- Inicio Tarjetas
-          .row(data-aos="fade-right")
-            .col-sm-6.col-lg-4.mb-4.d-flex.flex-column
-              .tarjeta.p-4.rounded-5.h-100.bg-color-7
-                .row.justify-content-center.mb-3.align-items-center
-                  .col-7
-                    figure
-                      img(src='@/assets/curso/tema1/tarjeta04_1.svg', alt='' style="width:100px").m-auto
+          .row.justify-content-center(data-aos="fade-left")
+            .col-11.col-sm-9.col-md-6.col-lg-4.mb-4
+              .p-4.br-15.h-100.text-center.shadow-sm.rounded-4.bg-color-7.d-flex.flex-column.align-items-center
+                figure.mb-4
+                  img(src='@/assets/curso/tema1/tarjeta04_1.svg', alt='Icono Medidas basadas en el animal', style="width:100px; height: 100px; object-fit: contain;").m-auto
                 h4.card-title.text-center.mb-4 A. Medidas basadas en el animal
-                ul.lista-ul.mb-0
-                  li.d-flex
-                    i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                    p.mb-0 Condición corporal. 
-                  li.d-flex
-                    i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                    p.mb-0 Uniformidad del lote. 
-                  li.d-flex
-                    i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                    p.mb-0 Presencia de lesiones (patas, pechuga). 
-                  li.d-flex
-                    i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                    p.mb-0 Estado del plumaje. 
-                  li.d-flex
-                    i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                    p.mb-0 Comportamiento (jadeo, actividad). 
-                  li.d-flex
-                    i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                    p.mb-0 Mortalidad.
-            .col-sm-6.col-lg-4.mb-4.d-flex.flex-column
-              .tarjeta.p-4.rounded-5.h-100.bg-color-7
-                .row.justify-content-center.mb-3
-                  .col-7
-                    figure
-                      img(src='@/assets/curso/tema1/tarjeta04_2.svg', alt='' style="width:100px").m-auto
+                .w-100.text-start.px-1.px-sm-2
+                  ul.lista-ul.mb-0
+                    li.d-flex.align-items-start.mb-2
+                      i.fas.fa-check-circle.color-acento-contenido.me-3.mt-1(style="color:#AD9721")
+                      span.mb-0 Condición corporal. 
+                    li.d-flex.align-items-start.mb-2
+                      i.fas.fa-check-circle.color-acento-contenido.me-3.mt-1(style="color:#AD9721")
+                      span.mb-0 Uniformidad del lote. 
+                    li.d-flex.align-items-start.mb-2
+                      i.fas.fa-check-circle.color-acento-contenido.me-3.mt-1(style="color:#AD9721")
+                      span.mb-0 Presencia de lesiones (patas, pechuga). 
+                    li.d-flex.align-items-start.mb-2
+                      i.fas.fa-check-circle.color-acento-contenido.me-3.mt-1(style="color:#AD9721")
+                      span.mb-0 Estado del plumaje. 
+                    li.d-flex.align-items-start.mb-2
+                      i.fas.fa-check-circle.color-acento-contenido.me-3.mt-1(style="color:#AD9721")
+                      span.mb-0 Comportamiento (jadeo, actividad). 
+                    li.d-flex.align-items-start.mb-0
+                      i.fas.fa-check-circle.color-acento-contenido.me-3.mt-1(style="color:#AD9721")
+                      span.mb-0 Mortalidad.            
+            .col-11.col-sm-9.col-md-6.col-lg-4.mb-4
+              .p-4.br-15.h-100.text-center.shadow-sm.rounded-4.bg-color-7.d-flex.flex-column.align-items-center
+                figure.mb-4
+                  img(src='@/assets/curso/tema1/tarjeta04_2.svg', alt='Icono Medidas basadas en los recursos', style="width:100px; height: 100px; object-fit: contain;").m-auto
                 h4.card-title.text-center.mb-4 B. Medidas basadas en los recursos
-                ul.lista-ul.mb-0
-                  li.d-flex
-                    i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                    p.mb-0 Temperatura del galpón. 
-                  li.d-flex
-                    i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                    p.mb-0 Ventilación. 
-                  li.d-flex
-                    i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                    p.mb-0 Calidad de la cama. 
-                  li.d-flex
-                    i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                    p.mb-0 Espacio disponible (densidad). 
-                  li.d-flex
-                    i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                    p.mb-0 Acceso a agua y alimento. 
-            .col-sm-6.col-lg-4.mb-4.d-flex.flex-column
-              .tarjeta.p-4.rounded-5.h-100.bg-color-7
-                .row.justify-content-center.mb-3
-                  .col-7
-                    figure
-                      img(src='@/assets/curso/tema1/tarjeta04_3.svg', alt='' style="width:100px").m-auto
+                .w-100.text-start.px-1.px-sm-2
+                  ul.lista-ul.mb-0
+                    li.d-flex.align-items-start.mb-2
+                      i.fas.fa-check-circle.color-acento-contenido.me-3.mt-1(style="color:#AD9721")
+                      span.mb-0 Temperatura del galpón. 
+                    li.d-flex.align-items-start.mb-2
+                      i.fas.fa-check-circle.color-acento-contenido.me-3.mt-1(style="color:#AD9721")
+                      span.mb-0 Ventilación. 
+                    li.d-flex.align-items-start.mb-2
+                      i.fas.fa-check-circle.color-acento-contenido.me-3.mt-1(style="color:#AD9721")
+                      span.mb-0 Calidad de la cama. 
+                    li.d-flex.align-items-start.mb-2
+                      i.fas.fa-check-circle.color-acento-contenido.me-3.mt-1(style="color:#AD9721")
+                      span.mb-0 Espacio disponible (densidad). 
+                    li.d-flex.align-items-start.mb-0
+                      i.fas.fa-check-circle.color-acento-contenido.me-3.mt-1(style="color:#AD9721")
+                      span.mb-0 Acceso a agua y alimento.
+            .col-11.col-sm-9.col-md-6.col-lg-4.mb-4
+              .p-4.br-15.h-100.text-center.shadow-sm.rounded-4.bg-color-7.d-flex.flex-column.align-items-center
+                figure.mb-4
+                  img(src='@/assets/curso/tema1/tarjeta04_3.svg', alt='Icono Medidas basadas en la gestión', style="width:100px; height: 100px; object-fit: contain;").m-auto
                 h4.card-title.text-center.mb-4 C. Medidas basadas en la gestión
-                ul.lista-ul.mb-0
-                  li.d-flex
-                    i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                    p.mb-0 Registros productivos. 
-                  li.d-flex
-                    i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                    p.mb-0 Protocolos de manejo. 
-                  li.d-flex
-                    i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                    p.mb-0 Plan de bioseguridad. 
-                  li.d-flex
-                    i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#AD9721")
-                    p.mb-0 Capacitación del personal. 
+                .w-100.text-start.px-1.px-sm-2
+                  ul.lista-ul.mb-0
+                    li.d-flex.align-items-start.mb-2
+                      i.fas.fa-check-circle.color-acento-contenido.me-3.mt-1(style="color:#AD9721")
+                      span.mb-0 Registros productivos. 
+                    li.d-flex.align-items-start.mb-2
+                      i.fas.fa-check-circle.color-acento-contenido.me-3.mt-1(style="color:#AD9721")
+                      span.mb-0 Protocolos de manejo. 
+                    li.d-flex.align-items-start.mb-2
+                      i.fas.fa-check-circle.color-acento-contenido.me-3.mt-1(style="color:#AD9721")
+                      span.mb-0 Plan de bioseguridad. 
+                    li.d-flex.align-items-start.mb-0
+                      i.fas.fa-check-circle.color-acento-contenido.me-3.mt-1(style="color:#AD9721")
+                      span.mb-0 Capacitación del personal. 
           //- Fin Tarjetas
           //- Título con imagen
           .bg-full-width.mt-5

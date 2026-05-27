@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 5
-      h1 Planificación y organización
+      h1 Manejo productivo del pollo de engorde
     .row.justify-content-center.align-items-stretch.mb-5(data-aos="fade-left")      
       .col-lg-10.mb-0.d-flex.align-items-center.bg-color-5.p-4
         p.mb-0 El manejo productivo del pollo de engorde comprende un conjunto de prácticas técnicas orientadas a garantizar el crecimiento, desarrollo, sanidad, bioseguridad, bienestar animal y rendimiento de las aves, desde su recepción hasta la etapa final de producción. Estas prácticas deben ajustarse a la normatividad vigente en Colombia, en especial a la Resolución ICA 3652 de 2014, sobre certificación de granjas bioseguras, y a la Resolución ICA 002536 de 2020, relacionada con bienestar animal. Un manejo eficiente optimiza la conversión alimenticia, reduce la mortalidad, previene enfermedades y asegura la inocuidad del producto, cumpliendo con los estándares sanitarios nacionales.
@@ -66,16 +66,16 @@
               ul.lista-ul.ms-4.mb-0
                 li.d-flex
                   i.fas.fa-check-circle.me-3(style="color:#689494")
-                  p.mb-0 Activo y alerta 
+                  p.mb-0 Activo y alerta.
                 li.d-flex
                   i.fas.fa-check-circle.me-3(style="color:#689494")
-                  p.mb-0 Ombligo cicatrizado 
+                  p.mb-0 Ombligo cicatrizado.
                 li.d-flex
                   i.fas.fa-check-circle.me-3(style="color:#689494")
-                  p.mb-0 Plumón seco 
+                  p.mb-0 Plumón seco.
                 li.d-flex
                   i.fas.fa-check-circle.me-3(style="color:#689494")
-                  p.mb-0 Buena hidratación
+                  p.mb-0 Buena hidratación.
             li.d-flex
               i.fas.fa-check-circle.me-3(style="color:#AD9721")
               p.mb-0 Descarga rápida para evitar estrés térmico (Resolución 002536). 
@@ -91,7 +91,7 @@
     .row.mt-5
         #t_5_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
           h2 5.1 Agua: importancia y manejo
-    .row.justify-content-center.align-items-stretch.mb-5(data-aos="fade-left")      
+    .row.justify-content-center.align-items-stretch(data-aos="fade-left")      
       .col-lg-8.mb-0.d-flex.align-items-center.bg-color-12.p-4
         p.mb-0 El agua es un nutriente esencial en la producción avícola, ya que regula la temperatura corporal y participa en los procesos digestivos. Su suministro debe ser potable, con sistemas protegidos de contaminación y adecuada limpieza, según la normatividad vigente. Un manejo correcto implica disponibilidad permanente, control de temperatura y limpieza de bebederos. El agua contaminada o insuficiente puede causar enfermedades, estrés y mortalidad.
       .col-lg-4.d-flex.align-items-center.justify-content-center

@@ -380,8 +380,9 @@ export default {
       autores: [
         {
           nombre: 'Claudia Johanna Gómez Pérez',
-          cargo: 'Líder del Ecosistema',
-          centro: 'Centro Agroturístico- Regional Santander',
+          cargo:
+            'Profesional 06. <br>Responsable Ecosistema Virtual de Recursos Educativos Digitales',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: 'Olga Constanza Bermúdez Jaimes',
