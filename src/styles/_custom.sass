@@ -67,6 +67,8 @@ figcaption
     background-color: #E5E2D3 !important
   &-12
     background-color: #F4F3ED !important
+  &-13
+    background-color: #fff9eb !important
 /*Fin de Colores de fondo*/
 
 /*Solución color letra botones*/
@@ -317,3 +319,142 @@ figcaption
 
 .h1, .titulo-principal__numero span, .h2, .h3, .h4, .h5, .h6
   color: white !important
+
+
+  
+.sistema-intensivo
+  width: 100%
+  padding-left: 0
+  padding-right: 42px
+  margin-left: 0
+  text-align: left
+  color: #172033
+
+  p
+    margin: 0
+    font-size: 15px
+    line-height: 1.45
+
+  .intro
+    margin-left: 14px
+    margin-bottom: 24px
+
+  .subtitulo
+    margin-left: 14px
+    margin-bottom: 26px
+
+
+.caracteristicas-grid
+  // Restamos los 50px del margen izquierdo para que el contenedor no se desborde a la derecha
+  width: calc(100% - 80px) 
+  display: grid
+  grid-template-columns: repeat(4, 1fr)
+  gap: 18px
+  margin-left: 50px // Aquí se aplica el margen de 50px a todo el bloque de tarjetas
+  margin-right: 16px
+  margin-bottom: 24px
+
+
+.caracteristica-card
+  background-color: #fbf8ef
+  min-height: 174px
+  padding-top: 26px
+  padding-right: 20px
+  padding-bottom: 26px
+  padding-left: 12px // El texto se mantiene intacto y alineado a su borde original
+  border-radius: 0
+  text-align: left
+
+  p
+    margin-bottom: 4px
+
+    &:first-child
+      margin-bottom: 6px
+
+    &:last-child
+      margin-bottom: 0
+
+
+.ventajas-grid
+  width: calc(100% - 30px)
+  display: grid
+  grid-template-columns: 1fr 1fr
+  column-gap: 72px
+  margin-left: 14px
+  margin-right: 16px
+  text-align: left
+
+
+.ventajas-col
+  text-align: left
+
+  .titulo-lista
+    margin-bottom: 12px
+
+
+.lista-check
+  list-style: none
+  padding-left: 0
+  margin: 0
+
+  li
+    position: relative
+    padding-left: 28px
+    margin-bottom: 8px
+    font-size: 15px
+    line-height: 1.4
+
+    &::before
+      content: "\f058"
+      font-family: "Font Awesome 5 Free"
+      font-weight: 900
+      position: absolute
+      left: 0
+      top: 1px
+      color: #8d7a2f
+      font-size: 11px
+
+    &:last-child
+      margin-bottom: 0
+
+
+// --- MEDIA QUERIES RESPONSIVE ---
+
+@media (max-width: 1200px)
+  .caracteristicas-grid
+    // En este rango crítico, pasa a 2 columnas para que el texto respire con el margen de 50px
+    grid-template-columns: repeat(2, 1fr) 
+    gap: 16px
+
+  .ventajas-grid
+    column-gap: 32px
+
+
+@media (max-width: 992px)
+  .ventajas-grid
+    grid-template-columns: 1fr
+    row-gap: 24px
+
+
+@media (max-width: 576px)
+  .sistema-intensivo
+    padding-right: 0
+
+    .intro,
+    .subtitulo
+      margin-left: 0
+
+  .caracteristicas-grid
+    width: 100%
+    grid-template-columns: 1fr
+    margin-left: 0 // En móviles removemos los 50px para aprovechar todo el ancho de pantalla
+    margin-right: 0
+
+  .caracteristica-card
+    min-height: auto
+    padding-left: 12px
+
+  .ventajas-grid
+    width: 100%
+    margin-left: 0
+    margin-right: 0

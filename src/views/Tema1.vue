@@ -63,18 +63,36 @@
         .col-lg-12
           AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
             .row(titulo="Sistema intensivo (predominante en Colombia)")
-              .col-12
-                p.mb-4 Es el sistema más utilizado en integraciones avícolas comerciales.                
-                p #[b Características:]
-                .row.mb-4.justify-content-center.p-5
-                    .col-6.col-md-3.text-center
-                        img.img-fluid(src='@/assets/curso/tema1/img1acordion.svg')
-                    .col-6.col-md-3.text-center
-                        img.img-fluid(src='@/assets/curso/tema1/img2acordion.svg')                    
-                    .col-6.col-md-3.text-center
-                        img.img-fluid(src='@/assets/curso/tema1/img3acordion.svg')                    
-                    .col-6.col-md-3.text-center
-                        img.img-fluid(src='@/assets/curso/tema1/img4acordion.svg')
+              .col-12.sistema-intensivo
+
+                p.intro Es el sistema más utilizado en integraciones avícolas comerciales.
+
+                p.subtitulo #[b Características:]
+
+                .caracteristicas-grid
+
+                  .caracteristica-card
+                    p #[b Galpones:]
+                    p Abiertos (convencionales con cortinas).
+                    p Cerrados tipo túnel (ambiente controlado).
+
+                  .caracteristica-card
+                    p #[b Alta densidad:]
+                    p Entre 10 y 14 aves/m² (según manejo y clima).
+
+                  .caracteristica-card
+                    p #[b Equipos:]
+                    p Bebederos tipo niple.
+                    p Comederos automáticos.
+                    p Ventilación mecánica o natural.
+
+                  .caracteristica-card
+                    p #[b Control de variables:]
+                    p Temperatura.
+                    p Humedad.
+                    p Ventilación.
+                    p Iluminación.
+
                 .row
                   .col-md-6
                     p #[b Ventajas:]
@@ -97,6 +115,11 @@
                       li.d-flex
                         i.fas.fa-check-circle(style="color: #ad9721;")
                         span.ms-2 Dependencia de energía y tecnología.
+
+
+
+
+
             .row(titulo="Sistema semi-intensivo (uso limitado)")
               .col-12
                 p.mb-4 Se usa en pequeñas producciones o modelos alternativos.
