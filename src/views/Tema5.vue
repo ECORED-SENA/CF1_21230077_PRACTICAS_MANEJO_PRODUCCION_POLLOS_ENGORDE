@@ -165,7 +165,7 @@
     .row.justify-content-center
       .col-md-12
         .titulo-sexto.color-acento-contenido.mb-3
-          h5 Tabla 4.
+          h5 Tabla 3.
           span  Fases de alimentación.
         .tabla-a
           table
@@ -217,7 +217,7 @@
     .row.justify-content-center
       .col-md-12
         .titulo-sexto.color-acento-contenido.mb-3
-          h5 Tabla 5.
+          h5 Tabla 4.
           span  Consumo total estimado por ave.
         .tabla-a
           table
@@ -244,7 +244,7 @@
     .row.justify-content-center
       .col-md-12
         .titulo-sexto.color-acento-contenido.mb-3
-          h5 Tabla 6.
+          h5 Tabla 5.
           span  Requerimientos nutricionales básicos
         .tabla-a
           table

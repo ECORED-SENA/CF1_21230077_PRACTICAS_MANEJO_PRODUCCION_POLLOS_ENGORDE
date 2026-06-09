@@ -6,10 +6,10 @@
       .titulo-principal__numero
         span 1
       h1 Fundamentos generales
-    p(data-aos="fade-left") En este capítulo se abordarán los sistemas de producción, los procesos productivos, las líneas comerciales para carne en Colombia, así como el bienestar animal y la etología en pollos de engorde.
+    p.mb-0(data-aos="fade-left") En este capítulo se abordarán los sistemas de producción, los procesos productivos, las líneas comerciales para carne en Colombia, así como el bienestar animal y la etología en pollos de engorde.
     .row.bg-color-1
       .col-12
-        .p-5
+        .px-5
           Separador
           //- Inicio Tema1.1
           .row.mt-5
@@ -455,7 +455,7 @@
           h2 1.3 Líneas comerciales para carne en Colombia 
     p(data-aos="fade-left") Con el fin de conocer las líneas genéticas importadas utilizadas en Colombia por su alta eficiencia productiva, se invita a observar el siguiente video.
     //- Inicio Video
-    figure.mb-5(data-aos="fade-down")
+    figure(data-aos="fade-down")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/TFDKnzGlVPI?si=tg-Fz2Evai3Tl6F2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     //- Fin Video
